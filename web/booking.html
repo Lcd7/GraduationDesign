@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+
+<!-- For-Mobile-Apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Hotel Booking Widget Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, Smartphone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //For-Mobile-Apps -->
+
+<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script> 
+
+<!-- Style --> <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<link rel="stylesheet" href="css/jquery-ui.css" />
+<!-- JavaScript --> <script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/date.format.js"></script>
+
+<style>
+
+	h3{
+		color:antiquewhite;
+		width: 500px;
+		/* background: #00ff00; */
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+
+	a:link {
+    color:#FFFFFF;
+    text-decoration:underline;
+    }
+    a:visited {
+    color:#FFCB99;
+    text-decoration:none;
+    }
+    a:hover {
+    color:#FF66A3;
+    text-decoration:none;
+    }
+    a:active {
+    color:#9EF296;
+    text-decoration:none;
+	}
+
+    
+    .barcon {
+		width: 1000px;
+		margin: 0 auto;
+		text-align: center;
+	}
+ 
+    .barcon1 {
+	font-size: 17px;
+	float: left;
+	margin-top: 20px;
+	}
+ 
+    .barcon2 {
+	float: right;
+	}
+ 
+    .barcon2 ul {
+	margin: 20px 0;
+	padding-left: 0;
+	list-style: none;
+	text-align: center;
+	}
+ 
+    .barcon2 li {
+	display: inline;
+	}
+ 
+    .barcon2 a {
+	font-size: 16px;
+	font-weight: normal;
+	display: inline-block;
+	padding: 5px;
+	padding-top: 0;
+	color: black;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	}
+ 
+    .barcon2 a:hover{
+	background-color: #eee;
+	}
+ 
+    .ban {
+	opacity: .4;
+	}
+
+	#next{
+		/* background-color:rgb(10, 10, 10); */
+        color:white;
+		/* opacity:0.5; */
+		
+		width:250px;
+		height:40px;
+		border-radius:20px;
+		border-style:none;
+		background:#ec6941;
+		font-size:14px;
+		color:rgba(249,248,248,1.00);
+	}
+
+	/* body{
+		position: absolute;
+		width:100%;
+	} */
+
+	.similiar{
+		/* position: absolute; */
+		/* top: 24%; */
+		/* right: 5%; */
+		float: left;
+		height: 400px;
+		width: 15%;
+		opacity:0.7;
+		color: white;
+		background:rgb(36, 34, 34);
+		padding: 25px;
+		display: block;
+		overflow: hidden;
+		margin-left: 6%;
+		margin-top: 5%;
+	}
+
+	.keyfiles{
+		/* position:fixed;
+		top: 24%;
+		left: 5%; */
+		float: left;
+		height: 400px;
+		width: 15%;
+		opacity:0.7;
+		color: white;
+		background:rgb(36, 34, 34);
+		padding: 25px;
+		display: block;
+		overflow: hidden;
+		margin-left: 7%;
+		margin-top: 5%;
+	}
+	/* 3D景深 */
+
+	/* .container{
+		position: absolute;
+		top:30%;
+		left: 10%;
+		width: 80%;
+	}
+	.hotel{
+		position: absolute;
+		top:40%;
+		left: 38%;
+		width: 25%;
+	}
+	.hh1{
+		position: absolute;
+		top:5%;
+		left: 10%;
+		width: 80%;
+	} */
+	/* html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+ 
+        body {
+            background: #000;
+            perspective: 340px;
+        } */
+        .stars {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 2px;
+            height: 2px;
+            box-shadow: -447px 387px #c4c4c4, -401px 118px #fafafa, -109px 217px #d9d9d9, -680px -436px #e3e3e3, 514px 360px #cccccc, -708px 298px #e8e8e8, -696px -270px #ededed, 116px -128px #f7f7f7, 179px 35px white, -404px -90px whitesmoke, -331px -309px #c4c4c4, -363px -24px #d1d1d1, 277px 416px #fafafa, -145px -244px whitesmoke, 123px 62px #d4d4d4, -407px 418px #d9d9d9, 535px 237px #d9d9d9, -466px -78px #f7f7f7, 257px 287px #dedede, 327px -398px #e0e0e0, -602px -38px #c2c2c2, 128px 398px #e6e6e6, 274px -446px #d1d1d1, -602px -298px #c7c7c7, 526px -5px #c4c4c4, -90px -158px #fcfcfc, 5px 294px whitesmoke, -633px 229px #c4c4c4, -475px 427px #dedede, 586px -453px #f2f2f2, 180px -432px #c7c7c7, -637px -88px #cfcfcf, -453px 308px #d6d6d6, -111px 1px #d9d9d9, 573px -450px #ededed, 198px 300px #d6d6d6, -355px 166px #dedede, -715px 13px #e3e3e3, 262px -104px #d1d1d1, 147px 325px #dbdbdb, 1px 399px #dbdbdb, 286px -100px white, 43px -329px #e8e8e8, 617px 55px #d9d9d9, -168px -392px #cccccc, 84px 219px #c9c9c9, 507px -226px #d9d9d9, -327px -70px #e6e6e6, 386px -212px #c4c4c4, -717px 4px #cfcfcf, 502px -231px #e3e3e3, 302px 56px #ededed, 649px 341px #c7c7c7, 569px 350px #c9c9c9, 516px -31px #e6e6e6, 689px 447px #c2c2c2, 591px -206px #fafafa, 422px -137px #e6e6e6, -510px -324px #cccccc, -649px 287px #c2c2c2, -194px -48px #f7f7f7, -279px -329px #d1d1d1, -406px 478px #dbdbdb, -735px -87px #c9c9c9, 30px -197px #dedede, -564px 233px #e6e6e6, -486px -324px #ededed, -54px -7px #ededed, -441px -194px #e3e3e3, -133px -95px #e0e0e0, -722px -73px #d6d6d6, 595px 423px #ededed, 568px -39px #ededed, 370px 377px #d1d1d1, -419px -102px #fcfcfc, -450px 109px #c4c4c4, -57px -119px #d1d1d1, -582px 150px #e6e6e6, 206px -263px #cfcfcf, 582px -461px #c9c9c9, -268px -141px #d9d9d9, -148px 291px #c7c7c7, 254px -179px #c9c9c9, 725px 424px #f0f0f0, 391px -150px #ebebeb, 89px -299px #d4d4d4, 170px 1px #c9c9c9, 243px 209px #c7c7c7, 27px 460px #c9c9c9, -465px -380px #d4d4d4, 530px -360px whitesmoke, -626px 53px #e0e0e0, 706px 218px #d9d9d9, 40px -82px #cccccc, -5px -212px #e6e6e6, -742px 33px #ebebeb, -714px 478px #e0e0e0, -585px -125px #cccccc, -216px 348px #cfcfcf, 601px 332px #ededed, 344px -88px #c4c4c4, 659px -22px #d1d1d1, -411px 188px #d6d6d6, -423px -206px #fcfcfc, -359px -136px #cfcfcf, 612px 406px whitesmoke, 725px 96px whitesmoke, 363px -446px white, -204px 325px #c9c9c9, 740px 176px #fafafa, -489px -352px white, -638px 64px #dbdbdb, 537px -65px #dbdbdb, 151px -32px #ebebeb, 681px 212px #fcfcfc, 604px -149px #e6e6e6, -542px -398px #c4c4c4, -707px 66px whitesmoke, -381px 258px #cfcfcf, -30px 332px #d6d6d6, 512px -381px #c9c9c9, 195px 288px #cccccc, -278px 479px #c7c7c7, 27px -208px #d6d6d6, -288px 15px white, -680px 248px #dedede, 433px 31px #c9c9c9, 150px -206px #d4d4d4, -79px 247px white, -594px 115px #e0e0e0, 99px 292px #e0e0e0, 673px -269px #dedede, -257px -64px #d1d1d1, 449px 81px #f2f2f2, 18px -99px #d1d1d1, -694px 415px #f7f7f7, 240px 264px #e0e0e0, 450px -172px white, 383px 7px #e8e8e8, 338px -73px #c9c9c9, 291px -19px #ebebeb, 659px 137px #d1d1d1, 602px -6px #fcfcfc, 554px 249px #ebebeb, 625px 356px #d9d9d9, 579px -183px #d6d6d6, -20px 250px white, -401px 431px #c4c4c4, -645px -232px #cccccc, -265px -148px white, 553px 258px #d1d1d1, 166px -360px #ebebeb, 719px 51px #ededed, 612px -129px #ebebeb, -465px -104px #f2f2f2, -154px -121px #d9d9d9, -1px 330px #f2f2f2, -666px 248px #f7f7f7, -720px 264px #ededed, 148px -365px #e6e6e6, -388px -349px #c4c4c4, 128px -88px #e3e3e3, -683px -274px #fafafa, -341px 41px #c9c9c9, -59px -471px #f0f0f0, -3px -427px #c2c2c2, 418px 167px #d6d6d6, 343px 247px #c7c7c7, 623px -347px #d1d1d1, 716px -217px white, 243px -409px whitesmoke, -75px -126px #d6d6d6, -730px -91px #c9c9c9, -210px -397px #cfcfcf, -349px 180px #c9c9c9, -567px -281px #e0e0e0, -460px 381px #fcfcfc, -310px -22px #ededed, 450px -1px #dbdbdb, -405px -328px #e3e3e3, 5px 332px #d6d6d6, -294px 302px #fcfcfc, -398px 97px whitesmoke, -696px 325px #cfcfcf, -589px 110px #d6d6d6, 353px -411px #dbdbdb, -697px -318px #ebebeb, -114px -72px #f0f0f0, 259px -193px #fcfcfc, 60px 26px #e6e6e6, -63px -232px white, 205px -372px #f7f7f7, -464px -333px #f2f2f2, -374px 123px white, -377px -386px #c7c7c7, -80px 337px #cccccc, 478px -178px #dbdbdb, 222px 420px #ebebeb, -707px 99px #c4c4c4, 716px -132px #fafafa, -253px -286px #e3e3e3, 646px 178px #f0f0f0, 201px 24px #d1d1d1, 178px -58px #c7c7c7, -557px 368px #ededed, 0px 219px #d9d9d9, -266px -269px #cccccc, 242px -197px #c9c9c9, -419px 193px #c2c2c2, -47px 91px #c7c7c7, -109px 75px #c2c2c2, -146px -453px #d6d6d6, 671px -350px #f2f2f2, 421px -91px #d9d9d9, 738px 19px #ededed, -316px -155px #dedede, 419px 244px #fcfcfc, -278px -418px #d6d6d6, -581px -181px #fcfcfc, 139px 264px #d9d9d9, 691px -11px #ebebeb, -622px 402px #c2c2c2, 219px 396px #f0f0f0, -149px -423px white, -716px -78px #d9d9d9, -590px 341px #e6e6e6, -208px 79px #d6d6d6, -227px -24px #f7f7f7, 239px 262px #d1d1d1, 740px 443px #f7f7f7, 509px 134px #d6d6d6, -555px 232px #e8e8e8, -67px -427px #cfcfcf, -368px 250px #f7f7f7, 715px -415px #fafafa, 411px -301px #f0f0f0, -322px 287px #d9d9d9, -429px -90px #f2f2f2, -327px -387px #f0f0f0, -491px 183px #c2c2c2, -133px 250px #d4d4d4, 538px 139px #e3e3e3, -417px -125px #f0f0f0, 653px -351px #e6e6e6, -549px 38px #d4d4d4, 602px 110px whitesmoke, 415px 105px #e0e0e0, -733px -371px #cfcfcf, 286px 403px #d4d4d4, 11px 320px #c4c4c4, -597px 158px whitesmoke, 716px -350px whitesmoke, 321px 67px #fafafa, -237px -300px #cfcfcf, 74px 152px #c9c9c9, 587px -123px #fcfcfc, 699px -332px whitesmoke, 399px 355px #f7f7f7, -323px 314px #dbdbdb, 89px 416px #c7c7c7, 445px 38px #e3e3e3, 572px 122px #c4c4c4, -258px 372px white, 49px 306px #d9d9d9, 437px -35px #dedede, 566px 174px #f2f2f2, 732px -299px whitesmoke, -410px 394px #ededed, 131px -415px white, 19px -326px #e8e8e8, -700px -188px #d1d1d1, 96px -1px #e0e0e0, -328px -396px #f0f0f0, -117px -214px #fcfcfc, -53px 261px #ebebeb, 80px 134px #d6d6d6, -364px -216px white, -636px -125px #dbdbdb, -639px -265px #e3e3e3, 208px 98px #c7c7c7, 172px 467px #e0e0e0, 435px 309px #e3e3e3, 194px -259px #f0f0f0, 209px -186px #c9c9c9, -312px 418px #fafafa, 229px 407px #c9c9c9, -449px -357px #fafafa, 674px 121px #e8e8e8, 608px -429px #ebebeb, -431px -428px #cfcfcf, 105px 462px #e3e3e3, -179px -372px #e3e3e3, 143px -317px #d6d6d6, -449px -149px #fafafa, -544px 250px #dedede, -220px -323px whitesmoke, 658px 8px whitesmoke, -656px -244px #e8e8e8, 347px 11px whitesmoke, 694px -230px #f7f7f7, -317px 1px #c4c4c4, 28px 23px #fcfcfc, -382px 321px #dbdbdb, 632px -74px #c4c4c4, 154px -245px #c2c2c2, -553px 337px #d6d6d6, -48px -243px #d1d1d1, 92px -391px #cccccc, -71px -256px #cfcfcf, -372px 57px #d9d9d9, 369px -140px #fcfcfc, 675px 81px #c2c2c2, -663px 254px #cccccc, 703px -203px #ededed, 74px -363px #c2c2c2, 643px -458px #d1d1d1, 198px 359px #cccccc, 265px 309px #d4d4d4, -353px -368px #e8e8e8, -465px 439px whitesmoke, 693px 360px #c9c9c9, 634px -397px #d1d1d1, 467px 25px whitesmoke, -558px -272px #e6e6e6, 671px 69px #dbdbdb, 407px 357px #cfcfcf, 379px 80px white, 10px -203px #c9c9c9, 104px -292px #f0f0f0, -667px -29px #d1d1d1, 557px -155px #e6e6e6, -505px 115px #cfcfcf, -605px 164px #f2f2f2, -108px -223px #e0e0e0, 523px -156px #ebebeb, 691px 230px white, -507px -13px #d1d1d1, -349px 332px #dedede, 520px 266px whitesmoke, -66px -250px #e6e6e6, -496px -449px #ebebeb, 414px -170px #dedede, -649px 230px #ebebeb, 598px -92px #c7c7c7, -638px 113px #c2c2c2, 151px 363px #f7f7f7, -445px -241px #f0f0f0, 527px -14px #dedede, 203px -61px #cfcfcf, -716px -284px #ebebeb, -525px 134px #c2c2c2;
+            animation: fly 3s linear infinite;
+            transform-style: preserve-3d;
+        }
+        .stars:before, .stars:after {
+            content: "";
+            position: absolute;
+            width: inherit;
+            height: inherit;
+            box-shadow: inherit;
+        }
+        .stars:before {
+            transform: translateZ(-300px);
+            opacity: .6;
+        }
+        .stars:after {
+            transform: translateZ(-600px);
+            opacity: .4;
+        }
+ 
+        @keyframes fly {
+            from {
+                transform: translateZ(0px);
+                opacity: .6;
+            }
+            to {
+                transform: translateZ(300px);
+                opacity: 1;
+            }
+        }
+</style>
+
+
+</head>
+<!-- <body onLoad="goPage(1,9);"> -->
+<body>
+	<div class="stars"></div>
+	<h1 class="book">CHOOSE YOUR CLASSES</h1>
+	<div class="keyfiles">
+		<h2>推荐文章</h2><br>
+		<div class="key"></div>
+	</div>
+	
+	<div class="reg">
+		<div class="submit">
+			<input id="next" type="submit" onclick="goPage(1,10)" class="book1" value="分页显示">
+		</div>
+		<div id="searchedFiles"></div>
+
+		<table id="idData" width="70%">
+			<tbody id="asd"></tbody>
+		</table>
+
+		<table width="100%" align="center">
+			<tr><td><div id="barcon" name="barcon"></div></td></tr>
+		</table>
+		<br>
+		<br>
+		<br>
+		<div class="submit">
+			<input type="submit" onclick="remain()" class="book" value="RETURN MAIN">
+		</div>
+
+		<div class="reg-footer">
+			<p>graduation project of <a href="1102217785@qq.com/" target="_blank" title="lcd">Lichendong</a></p>
+		</div>
+
+	</div>
+
+	<div class="similiar">
+		<h2>相似词：</h2><br>
+		<div class="simi"></div>
+	</div>
+
+	
+
+
+	<script>
+        String.prototype.signMix= function() {
+			if(arguments.length === 0) return this;
+			var param = arguments[0], str= this;
+			if(typeof(param) === 'object') {
+				for(var key in param)
+					str = str.replace(new RegExp("\\{" + key + "\\}", "g"), param[key]);
+				return str;
+			} else {
+				for(var i = 0; i < arguments.length; i++)
+					str = str.replace(new RegExp("\\{" + i + "\\}", "g"), arguments[i]);
+				return str;
+			}
+		}
+
+
+
+		var sleep = function(time) {
+			var startTime = new Date().getTime() + parseInt(time, 10);
+			while(new Date().getTime() < startTime) {}
+		};
+
+		function GetRequest() {
+			var url = location.search; //获取url中"?"符后的字串
+			// alert(url)
+				var theRequest = new Object();
+				if (url.indexOf("?") != -1) {
+					var str = url.substr(1);
+					strs = str.split("&");
+					for(var i = 0; i < strs.length; i ++) {
+						theRequest[strs[i].split("=")[0]]=strs[i].split("=")[1];
+					}
+				}
+				return theRequest;
+			}
+
+		function search(){
+			var theRequest = GetRequest()
+			var searchWord = theRequest.searchkey;
+			var language = theRequest.language;
+			var class_title = theRequest.class_title;
+			// var class_title = "CSS教程"
+
+			// console.log(language)
+			if (searchWord){
+				$.ajax({
+					url: 'http://127.0.0.1:5000/search/',
+					dataType: 'json',
+					type: 'get',
+					data: {searchkey:searchWord},
+					contentType: "application/json; charset=utf-8",
+					cache: false,
+					error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+					success     : function(data) {
+						console.log(data)
+
+						var html = "";
+						var simi = "";
+						var key_files = "";
+						var files = data.file_name_list;
+						var simi_w = data.simi_words;
+						var key_word_files = data.key_word_files;
+						
+						if(files){
+							for(var i = 0; i< files.length; i++){
+								var f_title = files[i][1];
+								var content = files[i][2];
+								html += "<tr><td><h2>" + f_title + "<a href = '" + files[i][0] + "'>ԅ(¯ㅂ¯ԅ)</a></h2><h3>" + content + "</h3></td></tr>";
+							}
+						}else{
+							html = "<h2>网站内暂时没有收入有此词语/句子的文章哦！</h2>"
+						}
+
+						if(simi_w){
+							for(var i = 0; i< simi_w.length; i++){
+								var word = simi_w[i];
+								simi += '<p><a onclick="simi_search' + "('" + "{0}".signMix(word) + "')" + '">' + word + '</a></p><br>'
+								// alert(simi)
+							}
+						}
+
+						if(key_word_files){
+							for(var i = 0; i< key_word_files.length; i++){
+								var k_title = key_word_files[i][0]
+								var k_path = key_word_files[i][1]
+								key_files += "<tr><td><h2><a href = '" + k_path + "'>" + k_title + "</a></h2></td></tr>";
+							}
+						}
+						
+						$("#asd").html(html);
+						$(".simi").html(simi);
+						$(".key").html(key_files);
+					}			
+				});
+			}
+			
+			if (language){
+				$.ajax({
+					url: 'http://127.0.0.1:5000/switch/',
+					dataType: 'json',
+					type: 'get',
+					data: {language:language},
+					contentType: "application/json; charset=utf-8",
+					cache: false,
+					error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+					success     : function(data) {
+						console.log(data)
+						// alert(data.file_name_list)
+						var html = "";
+						var files = data.file_name_list;
+						for(var i = 0; i< files.length; i++){
+							var title = files[i][1];
+							var content = files[i][2];
+							// var content = 
+							html += "<tr><td><h2>" + title + "<a href = '" + files[i][0] + "'>ԅ(¯ㅂ¯ԅ)</a></h2><h3>" + content + "</h3></td></tr>";
+						}
+						$("#asd").html(html);
+					}
+				})
+			}
+			
+			if(class_title){
+				$.ajax({
+					url: 'http://127.0.0.1:5000/choose/',
+					dataType: 'json',
+					type: 'get',
+					// data: $('#search').serialize(),
+					data: {class_title:class_title},
+					contentType: "application/json; charset=utf-8",
+					cache: false,
+					error       : function(err) { alert("Could not connect to the registration server. Please try again later."); },
+					success     : function(data) {
+						console.log(data)
+						// alert(data.file_name_list)
+						var html = "";
+						var files = data.file_name_list;
+						for(var i = 0; i< files.length; i++){
+							var title = files[i][1];
+							var content = files[i][2];
+							// var content = 
+							html += "<tr><td><h2>" + title + "<a href = '" + files[i][0] + "'>ԅ(¯ㅂ¯ԅ)</a></h2><h3>" + content + "</h3></td></tr>";
+						}
+						$("#asd").html(html);
+					}
+				})
+			}
+		}
+
+		search();
+
+		function simi_search(simi_w){
+			window.location.href= "file:///D:/Code/Code/Code/%E5%9F%BA%E4%BA%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%9A%84%E7%B4%A2%E5%BC%95%E5%9E%8B%E7%9F%A5%E8%AF%86%E5%BA%93/web/booking.html?searchkey=" + encodeURI(simi_w);
+			// alert(simi_w)
+		}
+
+		function goPage(pno,psize){
+			// sleep(500)
+			var itable = document.getElementById("idData");
+			var num = itable.rows.length;//表格所有行数(所有记录数)
+			// var num = _num;//表格所有行数(所有记录数)
+			console.log(num);
+			var totalPage = 0;//总页数
+			var pageSize = psize;//每页显示行数
+			//总共分几页
+			if(num/pageSize > parseInt(num/pageSize)){
+				totalPage=parseInt(num/pageSize)+1;
+				}else{
+				totalPage=parseInt(num/pageSize);
+				}
+			var currentPage = pno;//当前页数
+			var startRow = (currentPage - 1) * pageSize+1;//开始显示的行 31
+			var endRow = currentPage * pageSize;//结束显示的行  40
+			endRow = (endRow > num)? num : endRow;  //40
+			// console.log(endRow);
+				//遍历显示数据实现分页
+			for(var i=1;i<(num+1);i++){
+				var irow = itable.rows[i-1];
+				if(i>=startRow && i<=endRow){
+				irow.style.display = "block";
+				}else{
+				irow.style.display = "none";
+				}
+			}
+			var tempStr = "<br><br><br><p color='#FFFFFF'>共"+num+"条记录 分"+totalPage+"页 当前第"+currentPage+"页</p>";
+			if(currentPage>1){
+				tempStr += "<a href=\"#\" onClick=\"goPage("+(1)+","+psize+")\">首页 </a>";
+				tempStr += "<a href=\"#\" onClick=\"goPage("+(currentPage-1)+","+psize+")\"><上一页</a>"
+			}else{
+				tempStr += "首页 ";
+				tempStr += "<上一页 ";
+			}
+			if(currentPage<totalPage){
+				tempStr += "<a href=\"#\" onClick=\"goPage("+(currentPage+1)+","+psize+")\">下一页></a>";
+				tempStr += "<a href=\"#\" onClick=\"goPage("+(totalPage)+","+psize+")\">尾页</a>";
+			}else{
+				tempStr += "下一页> ";
+				tempStr += "尾页";
+			}
+			document.getElementById("barcon").innerHTML = tempStr;
+			}
+		
+		function remain(){
+			window.location.href= "file:///D:/Code/Code/Code/%E5%9F%BA%E4%BA%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%A4%84%E7%90%86%E7%9A%84%E7%B4%A2%E5%BC%95%E5%9E%8B%E7%9F%A5%E8%AF%86%E5%BA%93/web/index.html";
+		}
+
+	</script>
+
+
+</body>
+
+</html>
